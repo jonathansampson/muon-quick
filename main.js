@@ -19,7 +19,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadURL('https://tweetdeck.twitter.com')
+  mainWindow.loadURL('https://www.brave.com')
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools()
