@@ -19,10 +19,10 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadURL('https://tweetdeck.twitter.com')
-
+  //mainWindow.loadURL('https://tweetdeck.twitter.com')
+  mainWindow.loadURL('https://tc39.github.io/ecma262/')
   // Open the DevTools.
-  mainWindow.webContents.openDevTools()
+  //mainWindow.webContents.openDevTools()
 
   // Emitted when the window is closed.
   mainWindow.on('closed', function () {
